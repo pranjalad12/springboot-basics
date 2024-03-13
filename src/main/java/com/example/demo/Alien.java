@@ -10,7 +10,7 @@ public class Alien {
 
     private int aid;
     private String aname;
-    private String tech;
+    private String lang;
     @Autowired
     private Laptop laptop;
     
@@ -30,11 +30,11 @@ public class Alien {
     public void setAname(String aname) {
         this.aname = aname;
     }
-    public String getTech() {
-        return tech;
+    public String getLang() {
+        return lang;
     }
-    public void setTech(String tech) {
-        this.tech = tech;
+    public void setLang(String lang) {
+        this.lang = lang;
     }
 
     public Laptop getLaptop() {

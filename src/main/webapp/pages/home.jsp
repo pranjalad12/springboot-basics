@@ -7,7 +7,7 @@
     <!-- Add any additional meta tags, CSS, or JavaScript imports here -->
 </head>
 <body>
-    Helloooo world! ${name}
+    Helloooo world! ${obj.aname} ${obj.lang} ${obj.aid}
     <header>
         <!-- Your header content goes here -->
     </header>
